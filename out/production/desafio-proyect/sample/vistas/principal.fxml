@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="961.0" prefWidth="1295.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.vistas.Principal">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Principal">
    <children>
-      <Button id="btn_dominio" defaultButton="true" layoutX="42.0" layoutY="762.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="154.0" style="-fx-background-color: #D80F4F;" text="DOMINIO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_dominio" defaultButton="true" layoutX="42.0" layoutY="425.0" mnemonicParsing="false" onAction="#btn_dominio" prefHeight="58.0" prefWidth="154.0" style="-fx-background-color: #D80F4F;" text="DOMINIO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <Button id="btn_malla" defaultButton="true" layoutX="320.0" layoutY="762.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="165.0" style="-fx-background-color: #03DD87 ;" text="MALLA" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_malla" defaultButton="true" layoutX="207.0" layoutY="425.0" mnemonicParsing="false" onAction="#btn_malla" prefHeight="58.0" prefWidth="165.0" style="-fx-background-color: #03DD87 ;" text="MALLA" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <Button id="btn_tabla" defaultButton="true" layoutX="594.0" layoutY="762.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="327.0" style="-fx-background-color: #B802BE;" text="TABLA DE CONECTIVIDADES" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_tabla" defaultButton="true" layoutX="383.0" layoutY="425.0" mnemonicParsing="false" onAction="#btn_tabla" prefHeight="58.0" prefWidth="327.0" style="-fx-background-color: #B802BE;" text="TABLA DE CONECTIVIDADES" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <Button id="btn_modelo" defaultButton="true" layoutX="1030.0" layoutY="762.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="154.0" style="-fx-background-color: #FAF016;" text="MODELO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_modelo" defaultButton="true" layoutX="723.0" layoutY="425.0" mnemonicParsing="false" onAction="#btn_modelo" prefHeight="58.0" prefWidth="154.0" style="-fx-background-color: #FAF016;" text="MODELO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <Button id="btn_mef" defaultButton="true" layoutX="169.0" layoutY="856.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="165.0" style="-fx-background-color: #FF6631;" text="MEF" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_mef" defaultButton="true" layoutX="94.0" layoutY="532.0" mnemonicParsing="false" onAction="#btn_mef" prefHeight="58.0" prefWidth="165.0" style="-fx-background-color: #FF6631;" text="MEF" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <Button id="btn_ensamblaje" defaultButton="true" layoutX="451.0" layoutY="856.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="188.0" style="-fx-background-color: #2ECBBB;" text="ENSAMBLAJE" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_ensamblaje" defaultButton="true" layoutX="289.0" layoutY="532.0" mnemonicParsing="false" onAction="#btn_ensamblaje" prefHeight="58.0" prefWidth="188.0" style="-fx-background-color: #2ECBBB;" text="ENSAMBLAJE" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <Button id="btn_condiciones" defaultButton="true" layoutX="751.0" layoutY="856.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="356.0" style="-fx-background-color: #7575FA;" text="CONDICIONES CONTORNO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+      <Button id="btn_condiciones" defaultButton="true" layoutX="497.0" layoutY="532.0" mnemonicParsing="false" onAction="#btn_condiciones" prefHeight="58.0" prefWidth="356.0" style="-fx-background-color: #7575FA;" text="CONDICIONES CONTORNO" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
          <font>
             <Font name="Gill Sans MT" size="21.0" />
          </font>
       </Button>
-      <ImageView fitHeight="712.0" fitWidth="1284.0" layoutX="5.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="id_img_principal" disable="true" fitHeight="135.0" fitWidth="213.0" focusTraversable="true" layoutX="361.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="510.0" AnchorPane.leftAnchor="361.0" AnchorPane.rightAnchor="359.0" AnchorPane.topAnchor="55.0">
+         <image>
+            <Image url="@../images/do-it.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f26bae" layoutX="127.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como sabemos, SIMULAR es representar un fenómeno en un dominio distinto a su entorno original. Al apretar cada uno de los botones que se te presentan, aprenderas paso a paso a realizar un mallado en 3D" textAlignment="CENTER" wrappingWidth="645.20458984375">
+         <font>
+            <Font name="Dubai Regular" size="23.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

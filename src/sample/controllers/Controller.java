@@ -5,7 +5,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.input.MouseDragEvent;
 import javafx.stage.Stage;
 
 public class Controller {
@@ -13,15 +12,20 @@ public class Controller {
     @FXML
     private void btn_inicio(ActionEvent event) throws Exception {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/principal.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/principal.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
+           /* File file = new File("../images/do-it.png");
+            Image image = new Image(file.toURI().toString());
+            ImageView id_img_principal = new ImageView(image); */
+
             Stage stage = new Stage();
             stage.setTitle("Mallado en 3D");
-            stage.setScene(new Scene(root1));
+            stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
             System.out.println("Ops! ha ocurrido un error y no podemos pasar a la otra ventana:(");
         }
     }
-
 }
+
+
