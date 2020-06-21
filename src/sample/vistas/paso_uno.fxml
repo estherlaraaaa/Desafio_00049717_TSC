@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Mef">
+    <children>
+        <Text fill="#f5845e" layoutX="381.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASO 1">
+            <font>
+                <Font size="44.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="141.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/malla.JPG" />
+            </image></ImageView>
+        <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/back.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

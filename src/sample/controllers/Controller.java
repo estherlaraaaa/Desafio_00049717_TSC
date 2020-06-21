@@ -14,10 +14,6 @@ public class Controller {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/principal.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
-           /* File file = new File("../images/do-it.png");
-            Image image = new Image(file.toURI().toString());
-            ImageView id_img_principal = new ImageView(image); */
-
             Stage stage = new Stage();
             stage.setTitle("Mallado en 3D");
             stage.setScene(new Scene(root1, 900, 700));
