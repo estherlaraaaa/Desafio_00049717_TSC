@@ -8,23 +8,28 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Mef">
     <children>
-        <Text fill="#f5845e" layoutX="219.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASO 1: LOCALIZACION">
+        <Text fill="#f5845e" layoutX="89.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASO 3: APROXIMANDO EL MODELO">
             <font>
                 <Font size="44.0" />
             </font>
         </Text>
-        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="70.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="71.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../images/paso1.JPG" />
+                <Image url="@../images/paso3.JPG" />
             </image></ImageView>
         <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../images/back.png" />
             </image>
         </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="686.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <Text fill="#ff4952" layoutX="553.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RESIDUALES">
+         <font>
+            <Font name="Californian FB Bold" size="46.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="89.0" fitWidth="96.0" layoutX="607.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/omg.png" />
+            <Image url="@../images/return.png" />
          </image>
       </ImageView>
     </children>

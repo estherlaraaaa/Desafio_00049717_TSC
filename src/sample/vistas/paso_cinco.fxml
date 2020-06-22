@@ -8,24 +8,24 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Mef">
     <children>
-        <Text fill="#f5845e" layoutX="219.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASO 1: LOCALIZACION">
+        <Text fill="#f5845e" layoutX="141.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASO 5: METODO DE GALERKIN">
             <font>
                 <Font size="44.0" />
             </font>
         </Text>
-        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="70.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="216.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../images/paso1.JPG" />
+                <Image url="@../images/paso5.JPG" />
             </image></ImageView>
         <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../images/back.png" />
             </image>
         </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="686.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/omg.png" />
-         </image>
-      </ImageView>
+      <Text fill="#ffa9a9" layoutX="55.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acá, como ambas ecuaciones estan igualadas a 0, podemos hacerla una sola sumandolas. Luego, vamos a repartir Nt a cada termino" textAlignment="JUSTIFY" wrappingWidth="128.6708984375">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
     </children>
 </AnchorPane>
