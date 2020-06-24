@@ -21,7 +21,7 @@
          <children>
             <Button id="btn_iniciar" layoutX="369.0" layoutY="611.0" mnemonicParsing="false" onAction="#btn_inicio" prefHeight="41.0" prefWidth="235.0" style="-fx-background-color: #24fa0c;" text="INICIAR" textFill="#ff3333">
                <font>
-                  <Font size="21.0" />
+                  <Font name="Eras Bold ITC" size="21.0" />
                </font>
             </Button>
             <ImageView fitHeight="503.0" fitWidth="892.0" layoutX="188.0" layoutY="68.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">

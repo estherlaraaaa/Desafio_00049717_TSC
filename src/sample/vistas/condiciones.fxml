@@ -13,14 +13,55 @@
                 <Font size="44.0" />
             </font>
         </Text>
-        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="175.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@../images/probando.jpg" />
-            </image></ImageView>
         <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../images/back.png" />
             </image>
         </ImageView>
+      <ImageView fitHeight="326.0" fitWidth="392.0" layoutX="55.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/condiD.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="396.0" fitWidth="383.0" layoutX="462.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/condiN.JPG" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="56.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Así como tenemos nuestro dominio discretizado, es demasiado general; es por ello, que aplicaremos CONDICIONES DE CONTORNO. Estas sirven para concretizar en un caso especifico la temperatura y el flujo de esta.  " wrappingWidth="787.6708984375">
+         <font>
+            <Font name="Gill Sans MT" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="56.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aplicaremos 2 tipos de condiciones: DIRICHLET Y NEUMANN">
+         <font>
+            <Font name="Gill Sans MT" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="70.0" fitWidth="59.0" layoutX="642.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/omg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="150.0" layoutX="165.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/dirichletEcu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="182.0" layoutX="598.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/neumannEcu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="100.0" layoutX="220.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrowD.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="100.0" layoutX="548.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrowN.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>

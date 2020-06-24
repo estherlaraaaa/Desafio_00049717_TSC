@@ -8,8 +8,6 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
-
-
 public class Principal {
 
     public void btn_dominio(ActionEvent event) {
@@ -105,11 +103,25 @@ public class Principal {
         }
     }
 
+    public void btn_componentes(ActionEvent event) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/componentes.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setTitle("COMPONENTES DE LAS MATRICES");
+            stage.setScene(new Scene(root1, 900, 700));
+            stage.show();
+        }catch (Exception e){
+            System.out.println("Ops! ha ocurrido un error y no podemos pasar a la otra ventana:(");
+        }
+    }
+
     public void btn_back(MouseEvent event) {
         Node source = (Node) event.getSource();
         Stage stage = (Stage) source.getScene().getWindow();
         stage.close();
     }
+
 }
 
 
