@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
+
 public class Principal {
 
     public void btn_dominio(ActionEvent event) {

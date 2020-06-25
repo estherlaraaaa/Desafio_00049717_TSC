@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Componentes">
+    <children>
+        <Text fill="#f5845e" layoutX="359.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MATRIZ 'D' ">
+            <font>
+                <Font size="44.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="443.0" fitWidth="477.0" layoutX="-3.0" layoutY="138.0" pickOnBounds="true">
+            <image>
+                <Image url="@../images/matrizD1.jpg" />
+            </image></ImageView>
+        <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/back.png" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="443.0" fitWidth="430.0" layoutX="469.0" layoutY="138.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/matrizD2.jpg" />
+         </image>
+      </ImageView>
+        <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="433.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/omg.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

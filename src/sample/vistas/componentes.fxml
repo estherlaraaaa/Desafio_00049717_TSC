@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Principal">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Componentes">
     <children>
-        <Text fill="#f5845e" layoutX="111.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMPONENTES DE LAS MATRICES">
+        <Text fill="#f5845e" layoutX="100.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMPONENTES DE LAS MATRICES">
             <font>
                 <Font size="44.0" />
             </font>
@@ -19,6 +20,75 @@
                 <Image url="@../images/back.png" />
             </image>
         </ImageView>
-      <MediaView id="componentes_video" fx:id="media" fitHeight="200.0" fitWidth="200.0" layoutX="350.0" layoutY="203.0" />
+      <Button id="d" layoutX="121.0" layoutY="269.0" mnemonicParsing="false" onAction="#d" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #F5B7B1;" text="- D">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="k" layoutX="257.0" layoutY="269.0" mnemonicParsing="false" onAction="#k" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #D2B4DE;" text="K">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="l" layoutX="121.0" layoutY="399.0" mnemonicParsing="false" onAction="#l" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #85C1E9;" text="L">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="h" layoutX="257.0" layoutY="399.0" mnemonicParsing="false" onAction="#h" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #73C6B6;" text="- H">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="a" layoutX="455.0" layoutY="275.0" mnemonicParsing="false" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #F7DC6F;" text="A">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="b" layoutX="455.0" layoutY="405.0" mnemonicParsing="false" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #F8C471;" text="B">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="c" layoutX="657.0" layoutY="275.0" mnemonicParsing="false" onAction="#c" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #2980B9;" text="C">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Button id="f" layoutX="657.0" layoutY="405.0" mnemonicParsing="false" onAction="#f" prefHeight="112.0" prefWidth="122.0" style="-fx-background-color: #1ABC9C;" text="F">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Button>
+      <Line endX="163.5" endY="-9.0" layoutX="-43.0" layoutY="260.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="-71.0" layoutY="260.0" startX="163.5" startY="281.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="-46.0" layoutY="553.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="241.0" layoutY="259.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="242.0" layoutY="552.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="242.0" layoutY="259.0" startX="163.5" startY="281.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="291.0" layoutY="259.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="263.0" layoutY="259.0" startX="163.5" startY="281.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="288.0" layoutY="552.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="499.0" layoutY="259.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="471.0" layoutY="259.0" startX="163.5" startY="281.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="496.0" layoutY="552.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="431.0" layoutY="259.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="432.0" layoutY="552.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="432.0" layoutY="259.0" startX="163.5" startY="281.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="642.0" layoutY="259.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="643.0" layoutY="552.0" startX="139.0" startY="-9.0" stroke="#38c938" strokeWidth="6.0" />
+      <Line endX="163.5" endY="-9.0" layoutX="643.0" layoutY="259.0" startX="163.5" startY="281.0" stroke="#38c938" strokeWidth="6.0" />
+      <Text fill="#ff8181" layoutX="85.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al seleccionar cada una de las matrices establecidas en el MEF, podras observar el desarrollo de cada una de estas" wrappingWidth="738.05859375">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Line endX="154.0" endY="-9.0" layoutX="467.0" layoutY="387.0" startX="139.0" startY="-9.0" stroke="#ee0d0d" strokeWidth="6.0" />
+      <Line endX="154.0" endY="-9.0" layoutX="467.0" layoutY="408.0" startX="139.0" startY="-9.0" stroke="#ee0d0d" strokeWidth="6.0" />
+      <ImageView fitHeight="40.0" fitWidth="72.0" layoutX="496.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/arrowN.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
