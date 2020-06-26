@@ -13,9 +13,9 @@
                 <Font size="44.0" />
             </font>
         </Text>
-        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="175.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="85.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../images/probando.jpg" />
+                <Image url="@../images/egg.gif" />
             </image></ImageView>
         <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
             <image>
