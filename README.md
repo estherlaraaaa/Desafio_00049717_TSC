@@ -7,7 +7,7 @@ AUTOR: ESTHER MARÍA LARA GARCIA
 AVISOS IMPORTANTES:
 
 /n 1- El .exe solo es disponible para java 1.8.0 - 9.0.1
-2- Al abrir el ejecutable NO MAXIMIZARLO, sino que dejarlo tal cual se muestra (medio pequeño)
+/n 2- Al abrir el ejecutable NO MAXIMIZARLO, sino que dejarlo tal cual se muestra (medio pequeño)
 3- Fue hecho en IntelliJ Idea, usando java, jafafx, scene builder 
 4- Las imagenes son propias
 5- El gif yo lo realice en una aplicacion
