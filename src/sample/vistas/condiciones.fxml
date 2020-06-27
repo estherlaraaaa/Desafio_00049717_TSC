@@ -18,12 +18,12 @@
                 <Image url="@../images/back.png" />
             </image>
         </ImageView>
-      <ImageView fitHeight="326.0" fitWidth="392.0" layoutX="55.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="172.0" fitWidth="327.0" layoutX="55.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/condiD.JPG" />
          </image>
       </ImageView>
-      <ImageView fitHeight="396.0" fitWidth="383.0" layoutX="462.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="161.0" fitWidth="201.0" layoutX="56.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/condiN.JPG" />
          </image>
@@ -43,24 +43,19 @@
             <Image url="@../images/omg.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="42.0" fitWidth="150.0" layoutX="165.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="26.0" fitWidth="111.0" layoutX="186.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/dirichletEcu.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="59.0" fitWidth="182.0" layoutX="598.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="96.0" layoutX="194.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/neumannEcu.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="92.0" fitWidth="100.0" layoutX="220.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="356.0" fitWidth="487.0" layoutX="372.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/arrowD.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="120.0" fitWidth="100.0" layoutX="548.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../images/arrowN.png" />
+            <Image url="@../images/simularCondiciones.JPG" />
          </image>
       </ImageView>
     </children>
