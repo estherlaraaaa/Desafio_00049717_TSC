@@ -1,6 +1,7 @@
-package sample.controllers;
+package sample;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -8,30 +9,15 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
+public class Componentes {
 
-public class Principal {
-
-    public void btn_dominio(ActionEvent event) {
+    @FXML
+    void c(ActionEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/dominio.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/matrizC.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("DOMINIO");
-            stage.setScene(new Scene(root1, 900, 700));
-            stage.show();
-        }catch (Exception e){
-            System.out.println("Ops! ha ocurrido un error y no podemos pasar a la otra ventana:(");
-        }
-
-
-    }
-
-    public void btn_malla(ActionEvent event) {
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/malla.fxml"));
-            Parent root1 = (Parent) fxmlLoader.load();
-            Stage stage = new Stage();
-            stage.setTitle("MALLA");
+            stage.setTitle("MATRIZ 'C' ");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -39,12 +25,13 @@ public class Principal {
         }
     }
 
-    public void btn_tabla(ActionEvent event) {
+    @FXML
+    void d(ActionEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/tabla.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/matrizD.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("TABLA DE CONECTIVIDADES");
+            stage.setTitle("MATRIZ 'D' ");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -52,12 +39,13 @@ public class Principal {
         }
     }
 
-    public void btn_modelo(ActionEvent event) {
+    @FXML
+    void f(ActionEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/modelo.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/matrizF.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MODELO");
+            stage.setTitle("MATRIZ 'F' ");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -65,12 +53,13 @@ public class Principal {
         }
     }
 
-    public void btn_mef(ActionEvent event) {
+    @FXML
+    void h(ActionEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/mef.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/matrizH.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MEF");
+            stage.setTitle("MATRIZ 'H' ");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -78,12 +67,13 @@ public class Principal {
         }
     }
 
-    public void btn_ensamblaje(ActionEvent event) {
+    @FXML
+    void k(ActionEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/ensamblaje.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/matrizK.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("ENSAMBLAJE");
+            stage.setTitle("MATRIZ 'K' ");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -91,25 +81,13 @@ public class Principal {
         }
     }
 
-    public void btn_condiciones(ActionEvent event) {
+    @FXML
+    void l(ActionEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/condiciones.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/matrizL.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("CONDICIONES DE CONTORNO");
-            stage.setScene(new Scene(root1, 900, 700));
-            stage.show();
-        }catch (Exception e){
-            System.out.println("Ops! ha ocurrido un error y no podemos pasar a la otra ventana:(");
-        }
-    }
-
-    public void btn_componentes(ActionEvent event) {
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/componentes.fxml"));
-            Parent root1 = (Parent) fxmlLoader.load();
-            Stage stage = new Stage();
-            stage.setTitle("COMPONENTES DE LAS MATRICES");
+            stage.setTitle("MATRIZ 'L' ");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -122,7 +100,4 @@ public class Principal {
         Stage stage = (Stage) source.getScene().getWindow();
         stage.close();
     }
-
 }
-
-

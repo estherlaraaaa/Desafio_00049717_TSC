@@ -1,23 +1,23 @@
-package sample.controllers;
+package sample;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
-public class Componentes {
+public class Mef {
 
     @FXML
-    void c(ActionEvent event) {
+    void step_five(MouseEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/matrizC.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/paso_cinco.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MATRIZ 'C' ");
+            stage.setTitle("PASO 5");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -26,12 +26,12 @@ public class Componentes {
     }
 
     @FXML
-    void d(ActionEvent event) {
+    void step_four(MouseEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/matrizD.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/paso_cuatro.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MATRIZ 'D' ");
+            stage.setTitle("PASO 4");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -40,12 +40,12 @@ public class Componentes {
     }
 
     @FXML
-    void f(ActionEvent event) {
+    void step_one(MouseEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/matrizF.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/paso_uno.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MATRIZ 'F' ");
+            stage.setTitle("PASO 1");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -54,12 +54,12 @@ public class Componentes {
     }
 
     @FXML
-    void h(ActionEvent event) {
+    void step_six(MouseEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/matrizH.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/paso_seis.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MATRIZ 'H' ");
+            stage.setTitle("PASO 6");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -68,12 +68,12 @@ public class Componentes {
     }
 
     @FXML
-    void k(ActionEvent event) {
+    void step_three(MouseEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/matrizK.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/paso_tres.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MATRIZ 'K' ");
+            stage.setTitle("PASO 3");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -82,12 +82,12 @@ public class Componentes {
     }
 
     @FXML
-    void l(ActionEvent event) {
+    void step_two(MouseEvent event) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../vistas/matrizL.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("vistas/paso_dos.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            stage.setTitle("MATRIZ 'L' ");
+            stage.setTitle("PASO 2");
             stage.setScene(new Scene(root1, 900, 700));
             stage.show();
         }catch (Exception e){
@@ -100,4 +100,5 @@ public class Componentes {
         Stage stage = (Stage) source.getScene().getWindow();
         stage.close();
     }
+
 }

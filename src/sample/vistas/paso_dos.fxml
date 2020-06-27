@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Mef">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #000817;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Mef">
     <children>
         <Text fill="#f5845e" layoutX="206.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASO 2: INTERPOLACIÓN">
             <font>
