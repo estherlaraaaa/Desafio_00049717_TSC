@@ -13,14 +13,19 @@
                 <Font size="44.0" />
             </font>
         </Text>
-        <ImageView fitHeight="547.0" fitWidth="798.0" layoutX="85.0" layoutY="100.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="175.0">
+        <ImageView id="gif" fitHeight="634.0" fitWidth="645.0" layoutX="219.0" layoutY="33.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="219.0" AnchorPane.rightAnchor="236.78289794921875" AnchorPane.topAnchor="33.0">
             <image>
-                <Image url="@../images/gif3D.gif" />
+                <Image url="@../images/yayaya.gif" />
             </image></ImageView>
         <ImageView id="btn_back" fx:id="btn_back" fitHeight="59.0" fitWidth="61.0" layoutX="835.0" layoutY="635.0" onDragExited="#btn_back" onMouseExited="#btn_back" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../images/back.png" />
             </image>
         </ImageView>
+      <Text fill="#ff5959" layoutX="691.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como podemos ver, el cambio de colores depende de las condiciones que hemos aplicado a nuestro dominio." wrappingWidth="160.6708984375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
     </children>
 </AnchorPane>
